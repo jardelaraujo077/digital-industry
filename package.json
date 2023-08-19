@@ -1,0 +1,29 @@
+{
+  "name": "backend-challenge",
+  "version": "1.0.0",
+  "description": "Olá caro desenvolvedor back-end, nesse teste analisaremos seu conhecimento geral, velocidade de desenvolvimento e padrões de projeto utilizados. Abaixo explicaremos tudo o que será necessário, lembrando que, tecnologias mais recentes, aumento de complexidade, foco em performance, serão pontos positivos na avaliação.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "nodemon index.test | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cannect-Life/backend-challenge.git"
+  },
+  "author": "Jardel Araujo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cannect-Life/backend-challenge/issues"
+  },
+  "homepage": "https://github.com/Cannect-Life/backend-challenge#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "4.17.1",
+    "jsonwebtoken": "^9.0.0",
+    "md5": "^2.3.0",
+    "mysql2": "^2.3.3",
+    "node-rsa": "^1.1.1",
+    "nodemailer": "^6.9.1"
+  }
+}
