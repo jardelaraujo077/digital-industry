@@ -6,8 +6,8 @@ exports.configEmail = async (message) =>{
         port: 587,
         secure: false, // upgrade later with STARTTLS
         auth: {
-            user: "jardel.marinho@digitalindustry.com.br",
-            pass: "D@e89560240",
+            user: "no-reply@digitalindustry.com.br",
+            pass: "noreply@1234",
         },
     });
    let res = result.sendMail(message, function (err) {

@@ -1,10 +1,10 @@
 exports.sendEmailContact = (nome, email, empresa, telefone, msg)=>{
    
     var message = {
-        from: 'jardel.marinho@digitalindustry.com.br',      
+        from: 'no-reply@digitalindustry.com.br',      
         to: 'contato@digitalindustry.com.br',
        // replyTo: 'contato@digitalindustry.com.br',
-        cc: 'jardel.marinho@digitalindustry.com.br',
+       // cc: 'jardel.marinho@digitalindustry.com.br',
         subject: "Novo Contato no site da Digital",       
         html: "<html> <head> <title>Novo Contato no site da Digital</title> </head> " +
         "<body><p><strong>Novo Contato no site da Digital</strong></p> <table> " +
