@@ -14,6 +14,7 @@ exports.sendEmailContact = (nome, email, empresa, telefone, msg)=>{
         `<tr><td><strong>Telefone:</strong> ${telefone} </td></tr>`+
         `<tr><td><strong>Mensagem:</strong> ${msg} </td></tr> ` +
         "</table></body></html>"
+        
                     
         
     };
